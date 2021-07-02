@@ -8,6 +8,7 @@ import AddonsNavPage from './pages/AddonsNavPage';
 import ModalsNavPage from './pages/ModalsNavPage';
 import AdvancedNavPage from './pages/AdvancedNavPage';
 import ComponentsNavPage from './pages/ComponentsNavPage';
+import RightNavPage from './pages/RightNavPage';
 
 // FREE
 import AnimationPage from './pages/AnimationPage';
@@ -74,6 +75,7 @@ class Routes extends React.Component {
         <Route exact path='/advanced' component={AdvancedNavPage} />
         <Route exact path='/components' component={ComponentsNavPage} />
         <Route exact path='/css' component={CSSNavPage} />
+        <Route exact path='/right' component={RightNavPage} />
         <Route exact path='/forms' component={FormsNavPage} />
         <Route exact path='/modals' component={ModalsNavPage} />
         <Route exact path='/navigation' component={NavigationNavPage} />

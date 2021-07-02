@@ -66,6 +66,14 @@ class App extends Component {
                 </MDBNavItem>
                 <MDBNavItem>
                   <MDBNavLink
+                    to='/right'
+                    onClick={this.closeCollapse('mainNavbarCollapse')}
+                  >
+                    <strong>Home1</strong>
+                  </MDBNavLink>
+                </MDBNavItem>
+                <MDBNavItem>
+                  <MDBNavLink
                     onClick={this.closeCollapse('mainNavbarCollapse')}
                     to='/css'
                   >
